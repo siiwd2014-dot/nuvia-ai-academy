@@ -206,7 +206,7 @@ export default function Home() {
       </header>
 
       <main>
-        <section id="hero" className="hero-section">
+        <section id="hero" className="hero-section" style={{ "--hero-image": `url("${import.meta.env.BASE_URL}assets/nuvia-hero.jpg")` } as React.CSSProperties}>
           <div className="hero-art" aria-hidden="true" />
           <div className="hero-grid" aria-hidden="true" />
           <div className="hero-orb hero-orb--one" aria-hidden="true" />
